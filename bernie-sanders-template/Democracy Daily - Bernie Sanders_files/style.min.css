@@ -10995,8 +10995,24 @@ body:after {
 .lt-ie6 html {
     filter: expression(document.execCommand("BackgroundImageCache", false, true))
 }
-
+.mobile-logo-hide{
+  visibility: visible;
+  text-align: center;
+}
 @media screen and (min-width:375px) {
+    .mobile-logo-hide{
+      text-align: center;
+    }
+    .mobile-view-web-browser-text{
+      display: none;
+    }
+    .mobile-view-news-date-text{
+
+        margin-bottom:0px;margin-top:0px;font-weight:bold;
+    }
+    .newsletter-para{
+      text-align: center;
+    }
     .page-template-page-state-caucus #introduction-container h1,
     .page-template-page-state-page #introduction-container h1,
     .page-template-page-state-primary #introduction-container h1,
@@ -11028,7 +11044,19 @@ body:after {
 }
 
 @media screen and (min-width:480px) {
-    #revmsg-click-to-call h2,
+    .mobile-logo-hide{
+      float:left;
+      width:50%;
+      text-align: left;
+    }
+    .mobile-view-web-browser-text{
+      display: block;
+      margin-bottom:0px;
+    }
+    .newsletter-para{
+      float:right;padding-right:10px;text-align:right;
+    }
+      #revmsg-click-to-call h2,
     .category-daily .module-wrapper .module h2,
     .module h2 {
         font-size: 2.1em
@@ -11117,6 +11145,12 @@ body:after {
 }
 
 @media screen and (min-width:600px) {
+    .mobile-logo-hide{
+      display: block;
+      float:left;
+      width:50%;
+      text-align: left;
+    }
     h1 {
         font-size: 1.25rem
     }
@@ -11748,6 +11782,12 @@ body:after {
 }
 
 @media screen and (min-width:768px) {
+  .mobile-logo-hide{
+    display: block;
+    float:left;
+    width:50%;
+    text-align: left;
+  }
     h2 {
         padding: .5rem 0 2rem;
         font-size: 3rem
@@ -13055,6 +13095,12 @@ body:after {
 }
 
 @media (min-width:960px) {
+  .mobile-logo-hide{
+    display: block;
+    float:left;
+    width:50%;
+    text-align: left;
+  }
     .page-template-page-state-caucus #details,
     .page-template-page-state-primary #details {
         font-size: 1.2em
@@ -13062,6 +13108,12 @@ body:after {
 }
 
 @media screen and (min-width:980px) {
+  .mobile-logo-hide{
+    display: block;
+    float:left;
+    width:50%;
+    text-align: left;
+  }
     h1 {
         font-size: 1.4rem
     }
@@ -13829,6 +13881,12 @@ body:after {
 }
 
 @media screen and (min-width:1200px) {
+  .mobile-logo-hide{
+    display: block;
+    float:left;
+    width:50%;
+    text-align: left;
+  }
     h1 {
         font-size: 1.6rem
     }
@@ -14286,6 +14344,12 @@ body:after {
 }
 
 @media screen and (min-width:1350px) {
+  .mobile-logo-hide{
+    display: block;
+    float:left;
+    width:50%;
+    text-align: left;
+  }
     .names header h2 {
         font-size: 1.15rem;
         margin: .6rem 0
