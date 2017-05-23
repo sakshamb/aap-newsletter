@@ -490,6 +490,17 @@ h1 {
     padding: .5rem 0 0
 }
 
+.newsletter {
+    color: #F55B5B;
+    font-family: freight-sans-pro;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 500;
+    font-size: 1.0rem;
+    margin-bottom:10px;
+}
+
 h2 {
     color: #0076d7;
     font-family: jubilat;
@@ -4402,7 +4413,7 @@ body.category-daily>header {
     height: 450px;
     position: relative;
     overflow: hidden;
-    max-width: 400px;
+    //max-width: 700px;
     margin-bottom: 30px
 }
 
@@ -13992,7 +14003,15 @@ body:after {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 50%
+        width: 47.6%;
+    }
+    .archive.category section article:first-child,
+    .archive.tag section article:first-child,
+    .category-daily section article:first-child {
+        display: block;
+        width: 99%;
+        margin-right: 0px;
+
     }
     .archive.category section article:last-child,
     .archive.tag section article:last-child,
@@ -14012,12 +14031,17 @@ body:after {
     .archive.category section article:nth-child(4n),
     .archive.tag section article:nth-child(4n),
     .category-daily section article:nth-child(4n) {
-        margin-right: 0
+        margin-right: 2.35765%
     }
     .archive.category section article:nth-child(4n+1),
     .archive.tag section article:nth-child(4n+1),
     .category-daily section article:nth-child(4n+1) {
-        clear: left
+        //clear: left
+    }
+    .archive.category section article:nth-child(4),
+    .archive.tag section article:nth-child(4),
+    .category-daily section article:nth-child(4) {
+        margin-right: 2.35765%
     }
     .names header {
         height: 70px;
