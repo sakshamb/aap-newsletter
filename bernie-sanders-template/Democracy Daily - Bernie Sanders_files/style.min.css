@@ -4512,6 +4512,27 @@ body.category-daily>header {
     z-index: 99
 }
 
+.archive.category section article .more1,
+.archive.tag section article .more1,
+.category-daily section article .more1 {
+    bottom: 0;
+    width: 100%;
+    border-bottom: 1px solid #0076d7;
+    
+    padding: .5rem 1rem .55rem;
+    margin: 0;
+    display: block;
+    font-family: freight-sans-pro;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .15em;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #0076d7!important;
+    z-index: 99
+}
+
 .archive.category section article .more:before,
 .archive.tag section article .more:before,
 .category-daily section article .more:before {
@@ -14069,7 +14090,7 @@ body:after {
         display: block;
         width: 99%;
         margin-right: 0px;
-
+        height:auto!important;
     }
     .archive.category section article:last-child,
     .archive.tag section article:last-child,
