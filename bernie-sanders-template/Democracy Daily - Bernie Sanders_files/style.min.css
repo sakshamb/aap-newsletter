@@ -3065,7 +3065,7 @@ body.single .footer-offset footer .site-title {
     letter-spacing: .1em;
     font-weight: 500;
     text-transform: uppercase;
-    border: 1px solid #364350;
+    //border: 1px solid #364350;
     font-size: 1rem;
     max-width: 300px;
     padding: .5rem 0;
