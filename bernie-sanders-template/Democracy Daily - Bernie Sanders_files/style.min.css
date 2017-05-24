@@ -11070,11 +11070,6 @@ body:after {
       padding-left:1rem;
       padding-right:1rem;
     }
-    .header_aap::after{
-      content: " ";
-      clear: both;
-      display: block;
-    }
     .mobile-logo-hide{
       float:left;
       width:50%;
