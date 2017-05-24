@@ -11064,6 +11064,17 @@ body:after {
 }
 
 @media screen and (min-width:480px) {
+
+    .header_aap{
+      background-color:white;
+      padding-left:1rem;
+      padding-right:1rem;
+    }
+    .header_aap::after{
+      content: " ";
+      clear: both;
+      display: block;
+    }
     .mobile-logo-hide{
       float:left;
       width:50%;
@@ -14070,8 +14081,8 @@ body:after {
     .archive.tag>.masthead,
     .category-daily .archive-title,
     .category-daily>.masthead {
-        padding-left: 1rem;
-        padding-right: 1rem
+        padding-left: 4rem;
+        padding-right: 4rem
     }
     .archive.category .archive-title .search-btn.search-only,
     .archive.category>.masthead .search-btn.search-only,
