@@ -7554,6 +7554,8 @@ body:after {
   padding-left:1rem;
   padding-right:1rem;
 }
+
+
 @media screen and (min-width:375px) {
     .mobile-logo-hide{
       text-align: center;
@@ -7576,6 +7578,11 @@ body:after {
       padding-right:1rem;
     }
 
+    .f-and-t{
+      float:right;
+      text-align:right;
+      width:80%;
+    }
 }
 
 @media screen and (min-width:480px) {
@@ -7584,6 +7591,11 @@ body:after {
       background-color:white;
       padding-left:1rem;
       padding-right:1rem;
+    }
+    .f-and-t{
+      float:right;
+      text-align:right;
+      width:80%;
     }
     .mobile-logo-hide{
       float:left;
@@ -9221,6 +9233,11 @@ body:after {
 
 
 @media screen and (min-width:980px) {
+  .f-and-t{
+    float:right;
+    text-align:right;
+    width:60%;
+  }
   .archive.category section article, .archive.tag section article, .category-daily section article {
     display: block;
     height: 470px;
@@ -10096,6 +10113,14 @@ body:after {
     }
     .max-width {
         max-width: 55rem
+    }
+}
+
+@media screen and (min-width:1200px){
+    .f-and-t{
+      float:right;
+      text-align:right;
+      width:50%;
     }
 }
 
