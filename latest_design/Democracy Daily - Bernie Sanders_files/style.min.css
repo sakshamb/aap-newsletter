@@ -11672,10 +11672,14 @@ body:after {
     .archive.category section article,
     .archive.tag section article,
     .category-daily section article {
-        float: left;
         display: block;
-        margin-right: 2.35765%;
-        width: 48.82117%
+        height:600px;
+    }
+    .archive.category section article:first-child,
+    .archive.tag section article:first-child,
+    .category-daily section article:first-child {
+        display: block;
+        height: auto!important;
     }
     .archive.category section article:last-child,
     .archive.category section article:nth-child(2n),
@@ -11839,10 +11843,7 @@ body:after {
         padding: .5rem 0 2rem;
         font-size: 3rem
     }
-    article,
-    section {
-        max-width: 39.5rem
-    }
+
     img.inline {
         max-width: 350px
     }
@@ -13144,6 +13145,10 @@ body:after {
 
 
 @media screen and (min-width:980px) {
+  .archive.category section article, .archive.tag section article, .category-daily section article {
+    display: block;
+    height: 470px;
+}
   .mobile-logo-hide{
     display: block;
     float:left;
