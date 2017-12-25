@@ -515,7 +515,18 @@ h4 {
 </style>
 </head>
 <body>
-
+	<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id))
+				return;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
 	<center>
 		<table align=center border=0 cellpadding=0 cellspacing=0 height=100%
 			width=100% id=bodyTable>
@@ -774,9 +785,10 @@ h4 {
 																href=http://aamaadmiparty.org/delhi-cabinet-approves-historic-doorstep-delivery-of-public-services
 																target=_blank
 																style="font-weight: bold; letter-spacing: normal; line-height: 100%; text-align: center; text-decoration: none; color: #fff">
-																	<strong>Click here</strong> to read more about this scheme and share
-																	your suggestions on the services and delivery of this
-																	initiative. </a>
+																	<strong>Click here</strong> to read more about this
+																	scheme and share your suggestions on the services and
+																	delivery of this initiative.
+															</a>
 															</td>
 														</tr>
 													</tbody>
@@ -1087,6 +1099,17 @@ h4 {
 																					style="text-decoration: none" target=_blank>Read
 																					more »</a>
 																			</p>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>
+																			<div class="fb-share-button"
+																				data-href="http://aamaadmiparty.org/6th-national-council-meeting-of-aap"
+																				data-layout="button" data-size="small"
+																				data-mobile-iframe="false">
+																				<a class="fb-xfbml-parse-ignore" target="_blank"
+																					href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faamaadmiparty.org%2F6th-national-council-meeting-of-aap&amp;src=sdkpreparse">Share</a>
+																			</div>
 																		</td>
 																	</tr>
 																</tbody>
@@ -1689,8 +1712,7 @@ h4 {
 																							fallen by 3 lakhs due to fare hike, it has fallen
 																							by 4.8 lakhs</a></strong><br> Indian Express &nbsp;|
 																					&nbsp;29 November 2017
-																				</p>
-																				<!-- <p dir=ltr
+																				</p> <!-- <p dir=ltr
 																					style="font-family: Helvetica; font-size: 16px; font-weight: normal; text-align: center">
 																					<strong
 																						id=docs-internal-guid-6ada3e6d-5e08-aa33-4af3-818d809826f5><a
